@@ -85,7 +85,7 @@ footer{
     border-width: 1px 0px 1px 0px;
     border-color: #141953;
     background-color: rgb(3, 37, 26);
-    bottom: 1px;
+    bottom:0;
 }
 /*all of the files have footer with same color,height, width, margin top, border style and this maintains the consistancy*/
 
