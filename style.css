@@ -26,6 +26,9 @@ main{
 /*index html has main tag and by giving it to padding to it created the distance from nav bar to p1 and image
 and padding bottom gives distance from main to footer*/
 h2{
+    color: #177070;
+}
+h3{
     color:#c34910;
 }
 /*all of the files have h2 with same color and it maintains the consistancy*/
