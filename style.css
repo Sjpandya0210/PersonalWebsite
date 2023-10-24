@@ -34,13 +34,14 @@ h2{
     height: 300px;
     margin-top: 50px;
 }
+/* for pic class, added width, height and margin top (to add some space between header and pic*/
 .intro{
     font-weight: 300;
     font-style: oblique;
     font-size:30px;
     color:rgb(77, 32, 32) ;
 }
-/**/
+/* for intro class, added different font style, weight, size and color*/
 .quote{
     font-size:50px;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -49,7 +50,7 @@ h2{
     font-style: italic;
     margin-top: 200px;
 }
-/**/
+/* for quote class, added different font family, style, weight, size and color and margin to create some gap between p1 and p2*/
 img{
     width: 250px;
     height: 150px;
@@ -84,7 +85,7 @@ footer{
     border-width: 1px 0px 1px 0px;
     border-color: #141953;
     background-color: rgb(3, 37, 26);
-    bottom: 0;
+    bottom: 1px;
 }
 /*all of the files have footer with same color,height, width, margin top, border style and this maintains the consistancy*/
 
