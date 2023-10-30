@@ -78,7 +78,7 @@ div{
     height: 40px;
     width: 40px;
 }
-/**/
+/*added class to adjust height and width of footer images*/
 footer{
     position: relative;
     margin-top: 20px;
