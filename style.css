@@ -1,9 +1,10 @@
 body {
-    background-color: #CCCCFF;
+    background-image: linear-gradient(to right top,
+     #ab88b6, #8c8cb3, #617fc5);
 }
 /* applies to all files index, about and portfolio*/
 nav{
-    background-color: #CC99CC;
+    background-color: #75b894;
     text-align: left;
     border-radius: 12px;
     padding-left: 12px;
@@ -15,7 +16,6 @@ h1{
     font-family:'Segoe UI',  Tahoma, Geneva, Verdana, sans-serif;
     text-align: center;
     padding-bottom:12px;
-    padding-top: 2px;
     color: #9e1717;
 }
 /* applies to all files index, about and portfolio*/
@@ -26,10 +26,10 @@ main{
 /*index html has main tag and by giving it to padding to it created the distance from nav bar to p1 and image
 and padding bottom gives distance from main to footer*/
 h2{
-    color: #177070;
+    color: #0b5959;
 }
 h3{
-    color:#c34910;
+    color:#892f05;
 }
 /*all of the files have h2 with same color and it maintains the consistancy*/
 .pic{
@@ -79,7 +79,7 @@ div{
     width: 30px;
     padding-top: 5px;
 }
-/*added class to adjust height and width of footer images*/
+/*added class to adjust height and width of footer images
 footer{
     position: relative;
     margin-top: 20px;
@@ -93,6 +93,10 @@ footer{
 /*all of the files have footer with same color,height, width, margin top, border style and this maintains the consistancy*/
 
 /*contact page*/
+.contactpage{
+    display: flexbox;
+
+}
 .button{
     background-color: #aee6e6;
 }
@@ -106,6 +110,6 @@ footer{
     height: 40px;
     border-style: solid;
     border-width: 1px 0px 1px 0px;
-    border-color: #141953;
-    background-color: rgb(3, 37, 26);
+    border-color: #f84c0d;
+    background-color: rgb(8, 80, 57);
 }
