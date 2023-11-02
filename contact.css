@@ -1,0 +1,21 @@
+.button{
+    background-color:white;
+    border-color: rgb(41, 118, 211);
+    border-style: solid;
+    border-width: 1px;
+    cursor: pointer;
+    color:rgb(41, 118, 211);
+    height: 36px;
+    width:62px;
+    border-radius: 2px;
+    transition: opacity 0.15s, 
+    color 0.15;
+}
+.button:hover {
+  background-color: rgb(41, 118, 211);
+  color:white;
+}
+.button:active {
+    background-color: rgb(120, 216, 150);
+    color:white;
+  }
