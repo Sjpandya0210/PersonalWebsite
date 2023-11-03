@@ -1,3 +1,13 @@
+h2{
+  text-align: center;
+  font-weight: 30px;
+  font-size: 40px;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}/* heading alignment, size, type and bold*/
+p{
+  margin-top: 50px;
+}
+/*just added margin*/
 .button{
     background-color:white;
     border-color: rgb(41, 118, 211);
@@ -14,12 +24,31 @@
     padding-right: 16px;
     padding-bottom: 10px;
     margin-top: 5px;
-}
+}/*Made button interesctive, added shadow, colors, cursor*/
 .button:hover {
   background-color: rgb(41, 118, 211);
   color:white;
-}
+}/* added hover effect*/
 .button:active {
     background-color: rgb(120, 216, 150);
     color:white;
-  }
+  }/* when click the button it will change the color*/
+.contact{
+    width:40px;
+    height:40px;
+    vertical-align:top;
+}/*footer img size and alignment*/
+#firstname, #lastname{
+  display: inline-block;
+}/*to put firstname, lastname in a same line*/
+.info{
+  display: inline-block;
+  margin-right:20px;
+  margin-left: 10px;
+  vertical-align:top;
+ font-family: Georgia, 'Times New Roman', Times, serif;
+}/* info class and form class next to each other using inline block*/
+.forms{
+  display: inline-block;
+  margin-left:30px;
+}
