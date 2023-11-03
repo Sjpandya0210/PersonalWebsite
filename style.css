@@ -92,14 +92,6 @@ footer{
     }
 /*all of the files have footer with same color,height, width, margin top, border style and this maintains the consistancy*/
 
-/*contact page*/
-.contactpage{
-    display: flexbox;
-
-}
-.button{
-    background-color: #aee6e6;
-}
 /*added footer in a different way*/
 .followUs{
     display: flex;

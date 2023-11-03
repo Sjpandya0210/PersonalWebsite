@@ -1,0 +1,35 @@
+.sticky-top{
+    top:0;
+    background-color: #ebfdf3;
+    z-index: 1020;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    position: sticky;
+    border: 1px solid red;
+    }
+    nav{
+    margin: 10px 20px 0 20px;
+    padding: 7px 0 7px 0;
+    text-align: end;
+    }
+    h1{
+      font-family:'Segoe UI',  Tahoma, Geneva, Verdana, sans-serif;
+      color: #9e1717;
+      padding: 7px 0 7px 0;
+      margin: 0px 12px 0 20px;
+    }
+    footer{
+        margin-top: 7%;
+        position: relative;
+        background-color: rgb(120, 118, 131);
+        display: block;
+        text-align: center;
+      }
+      
+      .contact{
+          width:34px;
+          height:34px;
+          padding-bottom: 10px;
+      }/*footer img size and alignment*/
+      
+    
