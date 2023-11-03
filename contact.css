@@ -1,5 +1,26 @@
+.sticky-top{
+top:0;
+background-color: #ebfdf3;
+z-index: 1020;
+display: grid;
+grid-template-columns: 1fr 1fr;
+position: sticky;
+border: 1px solid red;
+}
+nav{
+margin: 10px 20px 0 20px;
+padding: 7px 0 7px 0;
+text-align: end;
+}
+h1{
+  font-family:'Segoe UI',  Tahoma, Geneva, Verdana, sans-serif;
+  color: #9e1717;
+  padding: 7px 0 7px 0;
+  margin: 0px 12px 0 20px;
+}
 h2{
-  text-align: center;
+  margin-left: 350px;
+  color: rgb(103, 103, 215);
   font-weight: 30px;
   font-size: 40px;
   font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
@@ -33,22 +54,45 @@ p{
     background-color: rgb(120, 216, 150);
     color:white;
   }/* when click the button it will change the color*/
-.contact{
-    width:40px;
-    height:40px;
-    vertical-align:top;
-}/*footer img size and alignment*/
+
 #firstname, #lastname{
   display: inline-block;
 }/*to put firstname, lastname in a same line*/
-.info{
+#email, #subject{
   display: inline-block;
+}
+#firstname{
+  margin-right:5px ;
+}
+#email{
+  margin-right: 25px;
+}
+.container{
+  display: grid;
+  grid-template-columns: 400px 1fr;
+  padding: 10px 16px 10px 16px;
+  margin: 2px 0 10px 0;
+} /*grid to manage the style of the content*/
+
+.info{
   margin-right:20px;
   margin-left: 10px;
   vertical-align:top;
- font-family: Georgia, 'Times New Roman', Times, serif;
-}/* info class and form class next to each other using inline block*/
-.forms{
-  display: inline-block;
-  margin-left:30px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
 }
+/* info class and form class next to each other using grid*/
+.forms{
+  margin-left:10px;
+}
+footer{
+  margin-top: 7%;
+  position: relative;
+  background-color: rgb(120, 118, 131);
+  display: block;
+  text-align: center;
+}
+.contact{
+  width:34px;
+  height:34px;
+  padding-bottom: 10px;
+}/*footer img size and alignment*/
