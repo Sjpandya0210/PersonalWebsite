@@ -4,13 +4,14 @@ background-color: #ebfdf3;
 z-index: 1020;
 display: grid;
 grid-template-columns: 1fr 1fr;
+column-gap:15px;
 position: sticky;
 border: 1px solid red;
 }
 nav{
-margin: 10px 20px 0 20px;
-padding: 7px 0 7px 0;
-text-align: end;
+  margin: 10px 20px 0 20px;
+  padding: 7px 0 7px 0;
+  text-align: end;
 }
 h1{
   font-family:'Segoe UI',  Tahoma, Geneva, Verdana, sans-serif;

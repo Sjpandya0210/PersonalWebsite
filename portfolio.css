@@ -18,6 +18,41 @@
       padding: 7px 0 7px 0;
       margin: 0px 12px 0 20px;
     }
+    h2{
+        text-align: center;
+        color: rgb(220, 134, 29);
+        text-shadow: 7px 7px 7px rgb(238, 210, 177) ;
+    }
+    .project1{
+        display: flex;
+        justify-content: center;
+        align-items: top;
+    }
+    .img1{
+        width: 30%;
+        justify-items: flex-start;
+        margin-right: 20px;
+    }
+    .project2{
+        display: flex;
+        justify-content: center;
+        align-items: top;
+    }
+    .img2{
+        width: 30%;
+        margin-left: 20px;
+        justify-items: flex-end;
+    }
+    .project3{
+        display: flex;
+        justify-content: center;
+        align-items: top;
+    }
+    .img3{
+        width: 30%;
+        justify-items: flex-start;
+        margin-right: 20px;
+    }
     footer{
         margin-top: 7%;
         position: relative;
