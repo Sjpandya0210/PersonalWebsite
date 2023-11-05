@@ -14,14 +14,14 @@
     }
     h1{
       font-family:'Segoe UI',  Tahoma, Geneva, Verdana, sans-serif;
-      color: #9e1717;
+      color: #ba91d8;
       padding: 7px 0 7px 0;
       margin: 0px 12px 0 20px;
     }
     h2{
         text-align: center;
         color: rgb(220, 134, 29);
-        text-shadow: 7px 7px 7px rgb(238, 210, 177) ;
+        text-shadow: 7px 7px 7px rgb(201, 209, 178) ;
     }
     .project1{
         display: flex;
