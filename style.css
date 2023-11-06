@@ -1,48 +1,58 @@
-body {
-    background-image: linear-gradient(to right top,
-     #ab88b6, #8c8cb3, #617fc5);
-}
-/* applies to all files index, about and portfolio*/
-nav{
+.sticky-top{
+    top:0;
     background-color: #ebfdf3;
-    text-align: left;
-    border-radius: 12px;
-    padding-left: 12px;
-    padding-top: 10px;
-    height: 70px;
+    z-index: 1020;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 25px;
+    position: sticky;
+    border: 1px solid rgb(187, 233, 192);
+    height:70px;
+    padding-top: 5px;
 }
-/* applies to all files index, about and portfolio*/
+
+nav{
+    margin: 10px 20px 0 20px;
+    padding: 7px 0 7px 0;
+    font-size: 25px;
+}
+
 h1{
-    font-family:'Segoe UI',  Tahoma, Geneva, Verdana, sans-serif;
-    text-align: center;
-    padding-bottom:12px;
-    color: #9e1717;
+      font-family:'Segoe UI',  Tahoma, Geneva, Verdana, sans-serif;
+      color: #ba91d8;
+      padding: 7px 0 7px 0;
+      margin: 0px 12px 0 20px;
+}
+body{
+    background-color: rgb(216, 220, 219);
 }
 /* applies to all files index, about and portfolio*/
 main{
-    padding-top: 10px;
-    padding-bottom:120px;
+    padding: 50px ;
+    align-content: center;
 }
 /*index html has main tag and by giving it to padding to it created the distance from nav bar to p1 and image
 and padding bottom gives distance from main to footer*/
-h2{
-    color: #0b5959;
-}
-h3{
-    color:#892f05;
-}
-/*all of the files have h2 with same color and it maintains the consistancy*/
+
 .pic{
     width:300px;
     height: 300px;
-    margin-top: 50px;
+    margin: 40px 15px 0 15px;
+    border-radius: 180px 100px 180px 100px;
 }
 /* for pic class, added width, height and margin top (to add some space between header and pic*/
 .intro{
     font-weight: 300;
     font-style: oblique;
-    font-size:30px;
+    font-size:40px;
     color:rgb(77, 32, 32) ;
+    display: flex;
+    justify-content:space-evenly;
+    gap: 15px;
+}
+p1{
+    line-height: 3rem;
 }
 /* for intro class, added different font style, weight, size and color*/
 .quote{
@@ -51,57 +61,35 @@ h3{
     color:rgba(49, 127, 27, 0.888);
     font-weight: 700;
     font-style: italic;
-    margin-top: 200px;
+    padding-top: 100px;
+    margin-top: 100px;
 }
 /* for quote class, added different font family, style, weight, size and color and margin to create some gap between p1 and p2*/
-img{
-    width: 250px;
-    height: 150px;
-    float: right;
-    clear: both;
-    padding-top: 0;
-    padding-bottom:0px;
-    padding-right: 10px;
-    margin-bottom:0px;
-}
-/**/
-section{
-    padding-bottom: 10px;
-}
-/*in portfolio page, between two section tags space added using padding bottom */
-div{
-    padding-bottom: 10px;
-}
-/*in about page, between two div tags space added using padding bottom */
-
-.contact{
-    height: 30px;
-    width: 30px;
-    padding-top: 5px;
-}
-/*added class to adjust height and width of footer images
-footer{
-    position: relative;
-    margin-top: 20px;
-    width:100%;
-    height: 50px;
-    border-style: solid;
-    border-width: 1px 0px 1px 0px;
-    border-color: #141953;
-    background-color: rgb(3, 37, 26);
-    }
-/*all of the files have footer with same color,height, width, margin top, border style and this maintains the consistancy*/
-
+/*added class to adjust height and width of footer images*/
 /*added footer in a different way*/
-.followUs{
-    display: flex;
-    justify-content: flex-end;
+footer{
+    margin-top: 7%;
     position: relative;
-    margin-top: 20px;
-    width:100%;
-    height: 40px;
-    border-style: solid;
-    border-width: 1px 0px 1px 0px;
-    border-color: #f84c0d;
-    background-color: rgb(8, 80, 57);
+    background-color: rgb(120, 118, 131);
+    display: block;
+    text-align: center;
+  }
+  .contact{
+      width:34px;
+      height:34px;
+      padding-bottom: 10px;
+  }
+  /*footer img size and alignment*/
+@media(max-width:1200px){
+    .sticky-top{
+    display: flex;
+    }}
+@media(max-width:800px){
+    .intro{
+       flex-direction: column;
+    }
+    .sticky-top{
+        display: flex;
+        height:fit-content ;
+    }
 }
