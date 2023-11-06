@@ -62,8 +62,8 @@ p{
     color:white;
   }/* when click the button it will change the color*/
 
-#firstname, #lastname{
-  display: inline-block;
+  #firstname, #lastname{
+    display: inline-block;
 }/*to put firstname, lastname in a same line*/
 #email, #subject{
   display: inline-block;
@@ -103,3 +103,43 @@ footer{
   height:34px;
   padding-bottom: 10px;
 }/*footer img size and alignment*/
+   
+@media(max-width:1200px){
+  .sticky-top{
+   display: flex;
+   flex-direction: row;
+   width:100%
+  }
+}
+@media(max-width:800px){
+   .sticky-top{
+       display: flex;
+       height:fit-content ;
+   }  .container{
+    display: grid;
+    grid-template-columns: auto auto;
+   }
+   #firstname,#lastname, #email, #subject{
+    display: block;
+   }
+   h2{
+    margin: 0;
+   }
+}
+@media(max-width:700px){
+   .sticky-top{
+       display: flex;
+       height:fit-content ;
+   }
+   .container{
+    display: grid;
+    grid-template-columns: auto;
+   }
+   #firstname,#lastname, #email, #subject{
+    display: block;
+    line-height: normal;
+   }
+   h2{
+    margin: 0;
+   }
+}

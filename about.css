@@ -85,13 +85,7 @@ body{
         display: flex;
         flex-direction: row;
         width:100%
-       }
-    }
-    @media(max-width:1200px){
-        .sticky-top{
-        display: flex;
-        }
-    }
+       }}
     @media(max-width:800px){
         .first, .second, third {
             flex-direction: row
