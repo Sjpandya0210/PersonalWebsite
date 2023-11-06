@@ -11,17 +11,20 @@
   height:70px;
   padding-top: 5px;
 }
+/* To make the header sticky with display property */
 nav{
   margin: 10px 20px 0 20px;
   padding: 7px 0 7px 0;
   font-size: 25px;
 }
+/*Links margin and padding */
 h1{
   font-family:'Segoe UI',  Tahoma, Geneva, Verdana, sans-serif;
   color: #ba91d8;
   padding: 7px 0 7px 0;
   margin: 0px 12px 0 20px;
 }
+/*add heading and style*/
 body{
   background-color: rgb(216, 220, 219);
 }
@@ -143,3 +146,4 @@ footer{
     margin: 0;
    }
 }
+/*media queries to adjust the content based on screen*/
